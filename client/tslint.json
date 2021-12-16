@@ -1,0 +1,28 @@
+{
+    "extends": [
+      "tslint:recommended",
+      "tslint-react",
+      "tslint-config-prettier",
+      "@advinans/tslint-config"
+    ],
+    "rulesDirectory": [
+      "tslint-plugin-prettier"
+    ],
+    "rules": {
+      "prettier": true,
+      "interface-name": false,
+      "no-console": false,
+      "member-access": false,
+      "object-literal-sort-keys": false,
+      "semicolon": false,
+      "ordered-imports": [
+        true,
+        {
+          "import-sources-order": "any",
+          "named-imports-order": "case-insensitive"
+        }
+      ],
+      "no-submodule-imports": false,
+      "no-implicit-dependencies": false
+    }
+  }
